@@ -1,0 +1,37 @@
+[{
+   "id": 1,
+   "name": "Pie de Manzana Clasico",
+   "description": "Nuestra famosa tarta de manzana casera",
+   "image": "assets/img/pie-1.png",
+   "price": 12.95,
+   "refrigeration": false
+ }, {
+   "id": 2,
+   "name": "Pastel de calabaza clásico",
+   "description": "Nuestra famosa tarta de calabaza casera",
+   "image": "assets/img/pie-2.png",
+   "price": 12.95,
+   "refrigeration": true
+ }, {
+   "id": 3,
+   "name": "Pastel de nueces y chocolate",
+   "description": "Nuestro famoso pastel de nueces casero besado con chocolate",
+   "image": "assets/img/pie-3.png",
+   "price": 12.95,
+   "refrigeration": true
+ }, {
+   "id": 4,
+   "name": "Tarta de queso original",
+   "description": "Nuestra famosa tarta de queso casera",
+   "image": "assets/img/cheesecake-1.png",
+   "price": 18.95,
+   "refrigeration": true
+ }, {
+   "id": 5,
+   "name": "Flan De Palomitas De Caramelo",
+   "description": "Un flan clásico con un divertido topping de palomitas de maíz.",
+   "image": "assets/img/cheesecake-5.png",
+   "price": 18.95,
+   "refrigeration": true
+ }]
+

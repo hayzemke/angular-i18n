@@ -58,10 +58,10 @@
          <div class="row">
              <input type="submit" name="submit" id="submit" value="Checkout" i18n-value />
          </div>
-         <div class="disclaimer">
-            <ng-container *ngIf="cart.items.length > 2 || cart.refrigerated">
-              <p class="disclaimer" i18n>Shipping many refrigerated items</p>
-            </ng-container>
+         <div class="disclaimer" *ngIf="cart.items.length > 0">
+              <p class="disclaimer" i18n>Shipping {cart.items.length, plural,
+                =1 {one}
+                other {multiple {cart.refrigerated, select, true {refrigerated}, false {non-refrigerated}}}} items</p>
          </div>
        </form>
      </div>
